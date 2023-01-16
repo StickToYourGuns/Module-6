@@ -4,6 +4,11 @@
 
 // Протестируйте функцию на любых значениях и выведите результат в консоль.
 
-const square = (x, n) => console.log (x ** n);
+let result;
 
-square(2, 3);
+const square = (x, n) => {
+  let result = x ** n;
+  return result;
+}
+
+console.log(square(2, 3));
